@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa; /* Light gray background for the body */
+  color: #2e4358; /* Darker text for better readability */
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-logo {
+  max-height: 32px;
+}
+/* Navbar custom styling (optional, if you want to move away from bg-dark) */
+/*
+.navbar {
+    background-color: #563d7c;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+*/
+
+.container,
+.container,
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-title {
+  margin-bottom: 30px;
+  color: #2e4358; /* A softer, modern heading color */
+  text-align: center;
+  font-weight: 500;
+}
+
+.card {
+  border: none; /* Remove default card border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  margin-bottom: 20px;
+}
+
+.card-header.custom-card-header {
+  /* Custom class for card headers */
+  background-color: #6f42c1; /* A nice purple, or choose your brand color */
+  color: white;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #6f42c1; /* Match card header or your brand color */
+  border-color: #6f42c1;
+}
+.btn-primary:hover {
+  background-color: #5a35a2;
+  border-color: #5a35a2;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Table styling */
+#myTable thead th {
+  background-color: #e9ecef; /* Light header for table */
+  color: #495057;
+}
+
+#myTable_wrapper {
+  /* Wrapper for DataTables */
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Image preview style */
+#preview {
+  display: block;
+  margin-top: 15px;
+  max-width: 200px; /* Slightly larger preview */
+  max-height: 200px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.alert {
+  margin-top: 15px;
+}
+
+.action-buttons a {
+  margin-right: 5px; /* Space between edit and hapus buttons */
+}
+.action-buttons a:last-child {
+  margin-right: 0;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
